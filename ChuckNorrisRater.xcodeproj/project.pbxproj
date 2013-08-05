@@ -18,6 +18,7 @@
 		6BB1257C17B0445000491DC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB1257B17B0445000491DC3 /* Default-568h@2x.png */; };
 		6BB1257F17B0445000491DC3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB1257D17B0445000491DC3 /* MainStoryboard.storyboard */; };
 		6BB1258217B0445000491DC3 /* IAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1258117B0445000491DC3 /* IAViewController.m */; };
+		6BB1258A17B0448100491DC3 /* IAHTTPCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1258917B0448100491DC3 /* IAHTTPCommunication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		6BB1257E17B0445000491DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6BB1258017B0445000491DC3 /* IAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAViewController.h; sourceTree = "<group>"; };
 		6BB1258117B0445000491DC3 /* IAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAViewController.m; sourceTree = "<group>"; };
+		6BB1258817B0448100491DC3 /* IAHTTPCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAHTTPCommunication.h; sourceTree = "<group>"; };
+		6BB1258917B0448100491DC3 /* IAHTTPCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAHTTPCommunication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		6BB1256B17B0445000491DC3 /* ChuckNorrisRater */ = {
 			isa = PBXGroup;
 			children = (
+				6BB1258817B0448100491DC3 /* IAHTTPCommunication.h */,
+				6BB1258917B0448100491DC3 /* IAHTTPCommunication.m */,
 				6BB1257417B0445000491DC3 /* IAAppDelegate.h */,
 				6BB1257517B0445000491DC3 /* IAAppDelegate.m */,
 				6BB1257D17B0445000491DC3 /* MainStoryboard.storyboard */,
@@ -177,6 +182,7 @@
 				6BB1257217B0445000491DC3 /* main.m in Sources */,
 				6BB1257617B0445000491DC3 /* IAAppDelegate.m in Sources */,
 				6BB1258217B0445000491DC3 /* IAViewController.m in Sources */,
+				6BB1258A17B0448100491DC3 /* IAHTTPCommunication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
